@@ -43,6 +43,9 @@ void printArray(int* arr, int size)
 //------------------------------------------------------------------------------
 int main()
 {
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
+    
     // Тест 1
     int arr1[] = {1, 3, 6, 5, 9, 8};
     int size1 = sizeof(arr1) / sizeof(arr1[0]);
